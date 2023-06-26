@@ -24,7 +24,7 @@
 | :fire: linkedin     | https://www.linkedin.com/in/caio-martins-2ba009207/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/DocCaio/Developer-portfolio/blob/main/src/assets/images/light.png)
+![](https://github.com/DocCaio/Developer-portfolio/blob/main/assets/images/light.png)
 
 ## Project detail
 
