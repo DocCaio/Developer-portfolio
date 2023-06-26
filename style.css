@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+header .nav-link-tx {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700 bolder;
+  font-size: 2em;
+}
+header .nav-link-p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+header .ancor__nav {
+  width: 50%;
+}
+header .img__profile-header {
+  width: 50%;
+}
+header ul {
+  list-style-type: none;
+}
+header .ancor__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+header .ancor__link:hover {
+  color: #4EE1A0;
+  transition: 0.5;
+}
+
+hr {
+  height: 3px;
+  width: 100%;
+  background: #4EE1A0;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul {
+    margin-top: 2em;
+  }
+  .div__main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .div__main .div__main-link {
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img__profile-header {
+    display: none;
+  }
+  .div__main {
+    background-image: url("../src/assets/images/profile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+main {
+  text-align: center;
+}
+main h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+main p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.container {
+  text-align: center;
+}
+.container p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.img__ul--link {
+  width: 90vw;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.p__ul--link {
+  text-transform: lowercase;
+}
+
+.card-link {
+  color: #000;
+}
+
+.card-link:hover {
+  color: #4EE1A0;
+  transition: 0.5;
+}
+
+section {
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .container .card {
+    width: 25rem;
+  }
+}
+footer {
+  text-align: center;
+}
+footer h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+footer p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+footer button {
+  background: #000;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

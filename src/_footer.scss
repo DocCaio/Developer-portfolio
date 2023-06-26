@@ -1,0 +1,35 @@
+@import './abstract/variaveis';
+
+footer {
+    text-align: center;
+    
+ 
+    h3 {
+        font-family: $ff-text;
+        font-weight: 500;
+        
+    }
+
+    p {
+        font-family: $ff-text;
+        font-weight: 400;
+        font-size: 1em;
+    }
+ 
+
+    button {
+        
+        background: $bg-color;
+        color: white;
+        
+    }
+
+  
+
+  
+}
+
+
+
+
+

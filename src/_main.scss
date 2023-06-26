@@ -1,0 +1,19 @@
+@import './abstract/variaveis';
+
+
+main {
+    text-align: center;
+
+    h2 {
+        font-family: $ff-text;
+        font-weight: 500; 
+    }
+
+    p {
+        font-family: $ff-text;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    
+}
+
