@@ -1,5 +1,5 @@
 .container {
-    text-align: center;
+   justify-content: center;
     
    p {
     font-family: $ff-text;
@@ -20,20 +20,27 @@ h4 {
    
 }
 
+
+
+    
+
 .p__ul--link {
     text-transform: lowercase;
 }
 
 .card-link {
-   color: $bg-color;   
+   color: $bg-color; 
+     
    
 }
 
 .card-link:hover {
     color: $bg-color-bar;
-        transition: 0.5;
+    transition: 0.5;
 
 }
+
+
 
 section {
     text-align: center;

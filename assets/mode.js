@@ -11,9 +11,9 @@ inputCheck.addEventListener('click', () => {
 document.querySelector("data-bs-theme", modo).addEventListener("click", () => {
     document.body.classList.toggle("dark-mode")
 
-    let paragrafo = document.querySelector("label")
+    let label = document.querySelector("label")
 document.body.classList.contains('dark-mode')
-? paragrafo.textContent = 'Modo Claro'
-: paragrafo.textContent = 'Modo noturno'
+? label.textContent = 'Modo Claro'
+: label.textContent = 'Modo noturno'
 
 });
