@@ -87,7 +87,7 @@ main p {
 }
 
 .container {
-  text-align: center;
+  justify-content: center;
 }
 .container p {
   font-family: "Space Grotesk", sans-serif;
@@ -145,19 +145,62 @@ section {
     width: 25rem;
   }
 }
-footer {
-  text-align: center;
+.container {
+  justify-content: center;
 }
-footer h3 {
+.container p {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
-}
-footer p {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 400;
   font-size: 1em;
 }
-footer button {
-  background: #000;
-  color: white;
+
+.img__ul--link {
+  width: 90vw;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.p__ul--link {
+  text-transform: lowercase;
+}
+
+.card-link {
+  color: #000;
+}
+
+.card-link:hover {
+  color: #4EE1A0;
+  transition: 0.5;
+}
+
+section {
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .container .card {
+    width: 25rem;
+  }
 }/*# sourceMappingURL=style.css.map */
